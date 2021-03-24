@@ -3,22 +3,22 @@ import type { AppRouteModule } from '/@/router/types';
 import { LAYOUT } from '/@/router/constant';
 import { t } from '/@/hooks/web/useI18n';
 //門急診掛號
-const dashboard: AppRouteModule = {
-  path: '/home',
-  name: 'Home',
+const his: AppRouteModule = {
+  path: '/his',
+  name: 'HisReg',
   component: LAYOUT,
-  redirect: '/home/welcome',
+  redirect: '/his/cp1',
   meta: {
-    icon: 'ion:home-outline',
-    title: t('routes.dashboard.welcome'),
+    icon: 'ion:git-compare-outline',
+    title: t('routes.his.register'),
   },
   children: [
     {
-      path: 'welcome',
-      name: 'Welcome',
+      path: 'cp1',
+      name: 'RegDemo',
       component: () => import('/@/views/dashboard/welcome/index.vue'),
       meta: {
-        title: t('routes.dashboard.welcome'),
+        title: t('routes.his.action1'),
         affix: true,
         icon: 'bx:bx-home',
       },
@@ -26,4 +26,4 @@ const dashboard: AppRouteModule = {
   ],
 };
 
-export default dashboard;
+export default his;
