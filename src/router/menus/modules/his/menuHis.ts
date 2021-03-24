@@ -6,9 +6,9 @@ const menu: MenuModule = {
   menu: {
     name: t('routes.locHis.register'),
     path: '/his',
-    tag: {
-      dot: true,
-    },
+    // tag: {
+    //   dot: true,
+    // },
     children: [
       {
         path: 'cp1',
