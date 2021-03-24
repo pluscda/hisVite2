@@ -1,3 +1,3 @@
 export default {
-  search: '菜单搜索',
+  search: '菜單搜索',
 };

@@ -1,5 +1,5 @@
 export default {
-  placeholder: '点击选择图标',
-  search: '搜索图标',
-  copy: '复制图标成功!',
+  placeholder: '點擊選擇圖標',
+  search: '搜索圖標',
+  copy: '複製圖標成功!',
 };

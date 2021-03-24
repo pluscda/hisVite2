@@ -1,9 +1,9 @@
 export default {
-  error: '验证失败！',
-  time: '验证校验成功,耗时{time}秒！',
+  error: '驗證失敗！',
+  time: '驗證校驗成功,耗時{time}秒！',
 
-  redoTip: '点击图片可刷新',
+  redoTip: '點擊圖片可刷新',
 
-  dragText: '请按住滑块拖动',
-  successText: '验证通过',
+  dragText: '請按住滑塊拖動',
+  successText: '驗證通過',
 };

@@ -1,5 +1,5 @@
 export default {
-  exportModalTitle: '导出数据',
-  fileType: '文件类型',
+  exportModalTitle: '導出數據',
+  fileType: '文件類型',
   fileName: '文件名',
 };
