@@ -41,7 +41,7 @@ router.get('/getUserInfoById', (ctx) => {
     result: {
       userId: '1',
       username: 'vben',
-      realName: 'Vben Admin',
+      realName: 'Datacom Admin',
       desc: 'manager',
       password: '123456',
       token: 'fakeToken1',

@@ -1,16 +1,16 @@
 export default {
-  okText: '确认',
-  closeText: '关闭',
+  okText: '確認',
+  closeText: '關閉',
   cancelText: '取消',
-  loadingText: '加载中...',
+  loadingText: '加載中...',
   saveText: '保存',
-  delText: '删除',
+  delText: '刪除',
   resetText: '重置',
   searchText: '搜索',
-  queryText: '查询',
+  queryText: '查詢',
 
-  inputText: '请输入',
-  chooseText: '请选择',
+  inputText: '請輸入',
+  chooseText: '請選擇',
 
   redo: '刷新',
   back: '返回',

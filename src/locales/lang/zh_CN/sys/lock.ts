@@ -1,7 +1,7 @@
 export default {
-  unlock: '点击解锁',
-  alert: '锁屏密码错误',
-  backToLogin: '返回登录',
-  entry: '进入系统',
-  placeholder: '请输入锁屏密码或者用户密码',
+  unlock: '點擊解鎖',
+  alert: '鎖屏密碼錯誤',
+  backToLogin: '返回登錄',
+  entry: '進入系統',
+  placeholder: '請輸入鎖屏密碼或者用戶密碼',
 };
