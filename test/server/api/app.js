@@ -20,7 +20,7 @@ router.post('/login', (ctx) => {
     result: {
       userId: '1',
       username: 'vben',
-      realName: 'Vben Admin',
+      realName: 'DataCom',
       desc: 'manager',
       password: '123456',
       token: 'fakeToken1',
@@ -40,7 +40,7 @@ router.get('/getUserInfoById', (ctx) => {
     success: true,
     result: {
       userId: '1',
-      username: 'vben',
+      username: 'Datacom',
       realName: 'Datacom Admin',
       desc: 'manager',
       password: '123456',

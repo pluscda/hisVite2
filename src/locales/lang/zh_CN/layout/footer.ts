@@ -1,4 +1,4 @@
 export default {
-  onlinePreview: '在线预览',
-  onlineDocument: '在线文档',
+  onlinePreview: '在線預覽',
+  onlineDocument: '在線文檔',
 };
