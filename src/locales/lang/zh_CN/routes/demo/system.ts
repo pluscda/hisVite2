@@ -1,12 +1,12 @@
 export default {
-  moduleName: '系统管理',
+  moduleName: '系統管理',
 
-  account: '账号管理',
+  account: '賬號管理',
 
-  password: '修改密码',
+  password: '修改密碼',
 
-  dept: '部门管理',
+  dept: '部門管理',
 
-  menu: '菜单管理',
+  menu: '菜單管理',
   role: '角色管理',
 };
