@@ -6,7 +6,7 @@ function createFakeUserList() {
     {
       userId: '1',
       username: 'vben',
-      realName: 'Vben Admin',
+      realName: 'DataCom Admin',
       desc: 'manager',
       password: '123456',
       token: 'fakeToken1',

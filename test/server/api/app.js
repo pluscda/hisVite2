@@ -40,7 +40,7 @@ router.get('/getUserInfoById', (ctx) => {
     success: true,
     result: {
       userId: '1',
-      username: 'Datacom',
+      username: 'vben',
       realName: 'Datacom Admin',
       desc: 'manager',
       password: '123456',
