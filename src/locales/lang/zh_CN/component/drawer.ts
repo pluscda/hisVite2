@@ -1,5 +1,5 @@
 export default {
-  loadingText: '加载中...',
-  cancelText: '关闭',
-  okText: '确认',
+  loadingText: '加載中...',
+  cancelText: '關閉',
+  okText: '確認',
 };

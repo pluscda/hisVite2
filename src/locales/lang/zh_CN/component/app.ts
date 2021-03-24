@@ -1,5 +1,5 @@
 export default {
-  searchNotData: '暂无搜索结果',
-  toSearch: '确认',
-  toNavigate: '切换',
+  searchNotData: '暫無搜索結果',
+  toSearch: '確認',
+  toNavigate: '切換',
 };
