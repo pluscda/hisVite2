@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/anncwb/vue-vben-admin.svg)](LICENSE)
 
-<h1>Vue vben admin</h1>
+<h1>基層醫院訊息管理系</h1>
 </div>
 
 **English** | [中文](./README.zh-CN.md)
