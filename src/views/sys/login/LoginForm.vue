@@ -40,7 +40,7 @@
         {{ t('sys.login.registerButton') }}
       </Button> -->
     </FormItem>
-    <ARow class="enter-x">
+    <ARow class="enter-x" hidden>
       <ACol :xs="24" :md="8">
         <Button block @click="setLoginState(LoginStateEnum.MOBILE)">
           {{ t('sys.login.mobileSignInFormTitle') }}
@@ -58,9 +58,9 @@
       </ACol>
     </ARow>
 
-    <Divider class="enter-x">{{ t('sys.login.otherSignIn') }}</Divider>
+    <Divider hidden class="enter-x">{{ t('sys.login.otherSignIn') }}</Divider>
 
-    <div class="flex justify-evenly enter-x" :class="`${prefixCls}-sign-in-way`">
+    <div class="flex justify-evenly enter-x" :class="`${prefixCls}-sign-in-way`" hidden>
       <GithubFilled />
       <WechatFilled />
       <AlipayCircleFilled />
