@@ -2,9 +2,9 @@ import type { MenuModule } from '/@/router/types';
 import { t } from '/@/hooks/web/useI18n';
 
 const menu: MenuModule = {
-  orderNo: 3,
+  orderNo: 19,
   menu: {
-    name: t('routes.his.register'),
+    name: t('routes.locHis.register'),
     path: '/his',
     tag: {
       dot: true,
@@ -12,7 +12,7 @@ const menu: MenuModule = {
     children: [
       {
         path: 'cp1',
-        name: t('routes.his.action1'),
+        name: t('routes.locHis.action1'),
         tag: {
           content: 'new',
         },

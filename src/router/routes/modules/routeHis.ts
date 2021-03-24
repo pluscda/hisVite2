@@ -5,20 +5,20 @@ import { t } from '/@/hooks/web/useI18n';
 //門急診掛號
 const his: AppRouteModule = {
   path: '/his',
-  name: 'HisReg',
+  name: 'DtcHis',
   component: LAYOUT,
   redirect: '/his/cp1',
   meta: {
     icon: 'ion:git-compare-outline',
-    title: t('routes.his.register'),
+    title: t('routes.locHis.register'),
   },
   children: [
     {
       path: 'cp1',
       name: 'RegDemo',
-      component: () => import('/@/views/dashboard/welcome/index.vue'),
+      component: () => import('/@/views/his/ViewHis.vue'),
       meta: {
-        title: t('routes.his.action1'),
+        title: t('routes.locHis.action1'),
         affix: true,
         icon: 'bx:bx-home',
       },
